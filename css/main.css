@@ -1,0 +1,86 @@
+/*body沒有#是因為他是一個element*/
+body{ 
+    margin: 0px;
+    font-family: cursive
+        "Lucida Grande",
+        Helvetica,
+        "Helvetic Neue",
+        Arial,
+        sans-serif;
+    
+}
+
+.enjoy-css {
+    color: #777;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    border: none;
+    font: normal 72px/normal "Passero One", Helvetica, sans-serif;
+    color: #777;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 2px 0 rgba(255, 255, 255, 1), 0 3px 0 rgba(255, 255, 255, 1), 0 4px 0 rgba(255, 255, 255, 1), 0 5px 0 rgba(255, 255, 255, 1), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 -5px 10px rgba(0, 0, 0, 0.247059), 0 -7px 10px rgba(0, 0, 0, 0.2), 0 -15px 20px rgba(0, 0, 0, 0.14902);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+
+#banner {
+    background-color: bisque;
+    height: 100px;
+    width: 800px;
+    float:left;
+    clear:both;
+/*    css指令都要以分號結尾*/
+}
+
+#banner, #nav, #content, #information, #fotter{
+    
+    padding: 10px;
+}
+
+
+#nav li{
+    display:block;
+    background-color:darkorange;
+    margin-top: 5px;
+    padding: 5px;
+/*add two lines here*/
+}
+#nav li a{
+/*add two lines here*/
+}
+
+#nav {
+    background-color: paleturquoise;
+    position:fixed;
+    
+
+}
+/* 相對位置為固定*/
+
+#content{
+    background-color: salmon;
+    width: 500px;
+    height: 800px;
+    margin-left:150px;
+    
+}
+
+
+
+#footer{
+    background-color: bisque;
+    width: 800;
+    height: 100px;
+}
+
+#wrapper{
+    width: 800px;
+    margin: 0 auto;    
+}
