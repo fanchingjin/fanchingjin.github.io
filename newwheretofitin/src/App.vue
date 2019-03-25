@@ -1,25 +1,29 @@
 <template lang="pug">
   #app
     HomeCover/
-    BaseReport/
+    ReportCover/
 </template>
 
 <script>
 import HomeCover from './components/HomeCover.vue';
-import BaseReport from './components/BaseReport.vue';
+import ReportCover from './components/ReportCover.vue';
 
 export default {
   name: 'app',
   components: {
     HomeCover,
-    BaseReport,
+    ReportCover,
   },
 };
 </script>
 
 <style lang="scss">
+html {
+  font-size: 10px;
+}
 body {
-  background-color: #f6f6f6;
+  background-color: #d5e6f0;
+  font-family: "Noto Sans CJK TC", sans-serif;
 }
 .full-page {
   position: absolute;
@@ -35,5 +39,11 @@ body {
 }
 .fade-in {
   opacity: 1;
+}
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-family: "Noto Sans CJK TC", sans-serif;
 }
 </style>

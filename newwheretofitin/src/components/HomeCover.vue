@@ -115,7 +115,7 @@ export default {
 }
 .cover-person {
   opacity: 0;
-  transition: opacity 16ms;
+  // transition: opacity 16ms;
 }
 [data-person] {
   cursor: pointer;
